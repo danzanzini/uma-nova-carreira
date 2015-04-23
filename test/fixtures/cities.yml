@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+first_city:
+  name: First City
+  state: first_state
+
+second_city:
+  name: Second City
+  state: second_state
+
+third_city:
+  name: Third City
+  state: first_state
+
+fourth_city:
+  name: Fouth City
+  state: second_state

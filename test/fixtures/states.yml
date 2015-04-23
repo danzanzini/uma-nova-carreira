@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+first_state:
+  name: First State
+  acronym: FS
+
+second_state:
+  name: Second State
+  acronym: SS
