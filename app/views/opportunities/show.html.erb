@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @opportunity.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @opportunity.description %>
+</p>
+
+<p>
+  <strong>How to:</strong>
+  <%= @opportunity.how_to %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @opportunity.city %>
+</p>
+
+<%= link_to 'Edit', edit_opportunity_path(@opportunity) %> |
+<%= link_to 'Back', opportunities_path %>
