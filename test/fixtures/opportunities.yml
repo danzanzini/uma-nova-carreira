@@ -1,13 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  title: MyString
-  description: MyString
-  how_to: MyString
-  city_id: 
+first_opportunity:
+  title: First Opportunity
+  description: This is the description of my first Opportunity
+  how_to: Justo do it
+  city: first_city
 
-two:
-  title: MyString
-  description: MyString
-  how_to: MyString
-  city_id: 
+second_opportunity:
+  title: Second Opportunity
+  description: This is the description of my second Opportunity
+  how_to: Just do it
+  city_id: second_city

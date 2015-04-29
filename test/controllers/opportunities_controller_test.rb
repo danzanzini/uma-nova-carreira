@@ -2,7 +2,7 @@ require 'test_helper'
 
 class OpportunitiesControllerTest < ActionController::TestCase
   setup do
-    @opportunity = opportunities(:one)
+    @opportunity = opportunities(:first_opportunity)
   end
 
   test "should get index" do
