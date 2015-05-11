@@ -47,6 +47,7 @@ group :test do
   gem 'minitest-rails'
   gem 'minitest-rails-capybara'
   gem 'shoulda'
+  gem "codeclimate-test-reporter", require: nil
 end
 
 group :development, :test do
